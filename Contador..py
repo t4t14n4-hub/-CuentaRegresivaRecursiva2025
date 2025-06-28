@@ -23,7 +23,7 @@ def cuenta_regresiva(n):
     if n > 0:
         cuenta_regresiva(n - 1)           # Llama a sí misma con n-1 (recursión)
     else:
-        print("🎉 ¡Llegaste a cero! 🎉")  # Mensaje especial al llegar a 0
+        print("¡Llegaste a cero!")  # Mensaje especial al llegar a 0
 """
 
 # Crear archivo contador.py
